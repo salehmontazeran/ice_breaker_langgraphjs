@@ -1,5 +1,5 @@
 {
-  "name": "node-ts-boilerplate",
+  "name": "ice_breaker_langgraphjs",
   "version": "0.1.0",
   "main": "src/app.ts",
   "engines": {
@@ -7,8 +7,8 @@
   },
   "keywords": [],
   "author": "Saleh",
-  "license": "MIT",
-  "description": "Node.js + TypeScript Starter Template",
+  "license": "Apache-2.0",
+  "description": "Ice Breaker using LangGraphJS",
   "scripts": {
     "clean": "rimraf coverage build tmp",
     "build:release": "npm run clean && tsc -p tsconfig.release.json",
@@ -33,6 +33,7 @@
     "@langchain/community": "^0.2.18",
     "@langchain/core": "^0.2.15",
     "@langchain/groq": "^0.0.15",
+    "@langchain/langgraph": "^0.0.30",
     "@langchain/openai": "^0.2.1",
     "dotenv": "^16.4.5",
     "langchain": "^0.2.9",

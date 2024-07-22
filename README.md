@@ -1,1 +1,1 @@
-# Ice Breaker using LangchainJS
+# Ice Breaker using LangGraphJS
