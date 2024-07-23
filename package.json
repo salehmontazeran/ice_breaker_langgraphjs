@@ -30,6 +30,7 @@
     "typescript": "^5.5.3"
   },
   "dependencies": {
+    "@langchain/anthropic": "^0.2.6",
     "@langchain/community": "^0.2.18",
     "@langchain/core": "^0.2.15",
     "@langchain/groq": "^0.0.15",
